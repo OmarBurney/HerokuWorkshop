@@ -1,0 +1,30 @@
+{
+  "name": "herokuworkshop",
+  "version": "1.0.0",
+  "description": "test application for deployment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "UC Davis DSC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^14.8.0"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarBurney/HerokuWorkshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OmarBurney/HerokuWorkshop/issues"
+  },
+  "homepage": "https://github.com/OmarBurney/HerokuWorkshop#readme"
+}
